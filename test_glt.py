@@ -16,14 +16,13 @@ st.set_page_config(
 # ── CONSTANTS ─────────────────────────────────────────────────────────────────
 DURATION_SEC   = 600          # 10 minutes
 NUM_QUESTIONS  = 40           # questions per student
-PASS_MARK      = 50           # pass if score > 50
+PASS_MARK      = 49           # pass if score > 49
 SCORES_CSV     = "glt302_scores.csv"
 ATTEMPTS_JSON  = "glt302_attempts.json"
 DEPARTMENTS    = [
     "Microbiology - Morning Class",
     "Microbiology - Evening Class",
-    "Physics", 
-    "Glass Technology",
+    "Physics",
 ]
 
 # ── QUESTION BANK (60 questions) ──────────────────────────────────────────────
